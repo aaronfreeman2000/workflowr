@@ -7,4 +7,16 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+# **Aaron Freeman's Thesis**
+
+Aaron's thesis is comprised of two components. The first part involves running a field experiment to determine the elevational tolerance of *Rhizophora mangle* or red mangroves. The second part uses remote sensing to track how the wetlands in St. Augustine, Florida have been changing through time. 
+
+## **The field experiment**
+
+The field experiment will determine what elevations *Rhizophora mangle* can tolerate and perform best in. This will be accomplished by planting over 100 red mangroves along an elevational gradient. Metrics such as plant height, canopy spread, and mortality will be used to determine the success of the plants.
+
+This information is crucial and land managers can use this to determine suitable restoration areas for mangroves.
+
+## **Remote sensing**
+
+The remote sensing component will detect changes of the wetland through time. This will be done using an automated classification system. High resolution, multi-spectral imagery will be used to determine classes. This automated classification will be repeated throughout several time frames to track the change and rate at which change is occuring. 
