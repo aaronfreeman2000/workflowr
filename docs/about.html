@@ -261,7 +261,7 @@ $(document).ready(function () {
   <a href="about.html">About</a>
 </li>
 <li>
-  <a href="license.html">License</a>
+  <a href="license.html">Experience/Skills</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -289,7 +289,7 @@ $(document).ready(function () {
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-ok text-success"
+workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger"
 aria-hidden="true"></span>
 </button>
 </p>
@@ -300,8 +300,8 @@ aria-hidden="true"></span>
 </li>
 <li>
 <a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
-</a>
+class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -314,9 +314,9 @@ class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 </p>
 <p>
 <strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1
 <span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 0
+aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>workflowr/</code> <span
@@ -339,33 +339,36 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges">
+<span class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted
+changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate"
+<div id="strongRMarkdownfilestronguncommittedchanges"
 class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git
-repository, you know the exact version of the code that produced these
-results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of
+the R Markdown file created these results, you’ll want to first commit
+it to the Git repo. If you’re still working on the analysis, you can
+ignore this warning. When you’re finished, you can run
+<code>wflow_publish</code> to commit the R Markdown file and build the
+HTML.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtree0732b80773dc6ba8021b061c0bc010309402140btargetblank0732b80a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtreee17ba864cc696cf3cce21bd400c18350928f8662targetblanke17ba86a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/aaronfreeman2000/workflowr/tree/0732b80773dc6ba8021b061c0bc010309402140b" target="_blank">0732b80</a>
+<a href="https://github.com/aaronfreeman2000/workflowr/tree/e17ba864cc696cf3cce21bd400c18350928f8662" target="_blank">e17ba86</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtree0732b80773dc6ba8021b061c0bc010309402140btargetblank0732b80a"
+id="strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtreee17ba864cc696cf3cce21bd400c18350928f8662targetblanke17ba86a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -375,7 +378,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/aaronfreeman2000/workflowr/tree/0732b80773dc6ba8021b061c0bc010309402140b" target="_blank">0732b80</a>.
+<a href="https://github.com/aaronfreeman2000/workflowr/tree/e17ba864cc696cf3cce21bd400c18350928f8662" target="_blank">e17ba86</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -393,6 +396,9 @@ Ignored files:
     Ignored:    .RData
     Ignored:    .Rhistory
     Ignored:    .Rproj.user/
+
+Unstaged changes:
+    Modified:   analysis/about.Rmd
 
 </code></pre>
 <p>
@@ -437,6 +443,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/aaronfreeman2000/workflowr/44718d48d369277b78cc0c232d4f9ea5214135f2/docs/about.html" target="_blank">44718d4</a>
+</td>
+<td>
+aaronfreeman2000
+</td>
+<td>
+2024-02-29
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -553,6 +576,16 @@ involves running a field experiment to determine the elevational
 tolerance of <em>Rhizophora mangle</em> or red mangroves. The second
 part uses remote sensing to track how the wetlands in St. Augustine,
 Florida have been changing through time.</p>
+<div class="float">
+<img src="assets/redpic.jpg"
+alt="Illustration of Red mangrove (Rhizophora mangle) (Artist: Gil Sánchez)" />
+<div class="figcaption">Illustration of Red mangrove (<em>Rhizophora
+mangle</em>) (Artist: Gil Sánchez)</div>
+</div>
+<div class="float">
+<img src="assets/aaronred.jpg" alt="Aaron and Red mangrove" />
+<div class="figcaption">Aaron and Red mangrove</div>
+</div>
 <div id="the-field-experiment" class="section level2">
 <h2><strong>The field experiment</strong></h2>
 <p>The field experiment will determine what elevations <em>Rhizophora
@@ -570,7 +603,12 @@ through time. This will be done using an automated classification
 system. High resolution, multi-spectral imagery will be used to
 determine classes. This automated classification will be repeated
 throughout several time frames to track the change and rate at which
-change is occuring.</p>
+change is occurring.</p>
+<div class="float">
+<img src="assets/classex.png"
+alt="Automated land classification example" />
+<div class="figcaption">Automated land classification example</div>
+</div>
 </div>
 </div>
 
