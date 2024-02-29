@@ -8,8 +8,12 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Welcome to my research website.
+## Welcome to my website.
 
-Here I will display work related to the field and GIS components of my thesis research.
+Here I will display work related to the field and GIS components of my thesis research. 
 
-Click on this [link](first-analysis.html) to see my results.
+I will also talk about additional projects I am included in, and prior experiences.
+
+
+
+Click on this [link](about.html) to learn about my current research project.

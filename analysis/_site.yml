@@ -1,7 +1,7 @@
-name: workflowr
+name: Research
 output_dir: ../docs
 navbar:
-  title: workflowr
+  title: Research
   left:
   - text: Home
     href: index.html
