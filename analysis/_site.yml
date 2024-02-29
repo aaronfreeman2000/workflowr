@@ -7,7 +7,7 @@ navbar:
     href: index.html
   - text: About
     href: about.html
-  - text: License
+  - text: Experience/Skills
     href: license.html
   right:
   - icon: fab fa-github
