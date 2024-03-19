@@ -261,7 +261,7 @@ $(document).ready(function () {
   <a href="about.html">About</a>
 </li>
 <li>
-  <a href="license.html">License</a>
+  <a href="license.html">Experience/Skills</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -289,7 +289,7 @@ $(document).ready(function () {
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-ok text-success"
+workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger"
 aria-hidden="true"></span>
 </button>
 </p>
@@ -300,8 +300,8 @@ aria-hidden="true"></span>
 </li>
 <li>
 <a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
-</a>
+class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -310,13 +310,13 @@ class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2024-02-29
+<strong>Last updated:</strong> 2024-03-19
 </p>
 <p>
 <strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1
 <span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 0
+aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>workflowr/</code> <span
@@ -339,33 +339,36 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges">
+<span class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted
+changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate"
+<div id="strongRMarkdownfilestronguncommittedchanges"
 class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git
-repository, you know the exact version of the code that produced these
-results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of
+the R Markdown file created these results, you’ll want to first commit
+it to the Git repo. If you’re still working on the analysis, you can
+ignore this warning. When you’re finished, you can run
+<code>wflow_publish</code> to commit the R Markdown file and build the
+HTML.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtree0732b80773dc6ba8021b061c0bc010309402140btargetblank0732b80a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtree1f656513cbbc84c7abc90e92dc58615b507f1315targetblank1f65651a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/aaronfreeman2000/workflowr/tree/0732b80773dc6ba8021b061c0bc010309402140b" target="_blank">0732b80</a>
+<a href="https://github.com/aaronfreeman2000/workflowr/tree/1f656513cbbc84c7abc90e92dc58615b507f1315" target="_blank">1f65651</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtree0732b80773dc6ba8021b061c0bc010309402140btargetblank0732b80a"
+id="strongRepositoryversionstrongahrefhttpsgithubcomaaronfreeman2000workflowrtree1f656513cbbc84c7abc90e92dc58615b507f1315targetblank1f65651a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -375,7 +378,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/aaronfreeman2000/workflowr/tree/0732b80773dc6ba8021b061c0bc010309402140b" target="_blank">0732b80</a>.
+<a href="https://github.com/aaronfreeman2000/workflowr/tree/1f656513cbbc84c7abc90e92dc58615b507f1315" target="_blank">1f65651</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -393,6 +396,9 @@ Ignored files:
     Ignored:    .RData
     Ignored:    .Rhistory
     Ignored:    .Rproj.user/
+
+Unstaged changes:
+    Modified:   analysis/index.Rmd
 
 </code></pre>
 <p>
@@ -437,6 +443,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/aaronfreeman2000/workflowr/44718d48d369277b78cc0c232d4f9ea5214135f2/docs/index.html" target="_blank">44718d4</a>
+</td>
+<td>
+aaronfreeman2000
+</td>
+<td>
+2024-02-29
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -565,12 +588,21 @@ Start workflowr project.
 </div>
 <div id="welcome-to-my-website." class="section level2">
 <h2>Welcome to my website.</h2>
+<p>My name is Aaron Freeman and I am currently a biology graduate
+student at Villanova University.</p>
 <p>Here I will display work related to the field and GIS components of
 my thesis research.</p>
 <p>I will also talk about additional projects I am included in, and
 prior experiences.</p>
 <p>Click on this <a href="about.html">link</a> to learn about my current
 research project.</p>
+<p>Click on this <a href="first-analysis.html">link</a> to view my
+current results and data. This page current holds example data until
+real data is extracted.</p>
+<div class="float">
+<img src="aaronboat.JPG" alt="Cape May, NJ" />
+<div class="figcaption">Cape May, NJ</div>
+</div>
 </div>
 
 
