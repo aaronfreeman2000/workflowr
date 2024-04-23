@@ -1,0 +1,10 @@
+7299,1,1,1,255,Developed-Roads
+7330,145,255,115,255,Southern Coastal Plain Dry Upland Hardwood Forest
+7382,107,209,206,255,Southern Atlantic Coastal Plain Maritime Forest
+7453,116,214,204,255,Central Florida Pine Flatwoods
+7547,116,214,204,255,Central Florida Pine Wet Flatwoods
+9241,255,153,0,255,Southern Atlantic Coastal Plain Fresh and Oligohaline Tidal Marsh
+9243,255,153,0,255,Southern Atlantic Coastal Plain Salt and Brackish Tidal Marsh
+9248,216,216,191,255,Southern Coastal Plain Hydric Hammock
+9322,158,67,14,255,Southeastern North American Temperate Forest Plantation
+9823,255,105,46,255,Southeastern Ruderal Grassland

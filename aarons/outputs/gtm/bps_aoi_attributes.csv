@@ -1,0 +1,15 @@
+"","VALUE","Freq","BPS_CODE","ZONE","BPS_MODEL","BPS_NAME","GROUPVEG","FRI_REPLAC","FRI_MIXED","FRI_SURFAC","FRI_ALLFIR","PRC_REPLAC","PRC_MIXED","PRC_SURFAC","FRG_NEW","R","G","B","RED","GREEN","BLUE","ACRES","REL_PERCENT"
+"1",11,35189,11,0,"0","Open Water","Open Water",-9999,-9999,-9999,-9999,-9999,-9999,-9999,"-9999",0,0,255,0,0,1,7826,35.4
+"2",1302,25730,13820,55,"13820_55_58","Southern Atlantic Coastal Plain Maritime Forest","Hardwood-Conifer",69,882,14,12,17,1,82,"I-B",186,130,255,0.729412,0.509804,1,5722,25.9
+"3",1312,15175,14800,55,"14800_55_99","Gulf and Atlantic Coastal Plain Swamp Systems","Riparian",-9999,-9999,221,221,-9999,-9999,100,"V-A",102,212,179,0.4,0.831373,0.701961,3375,15.2
+"4",1315,11575,14900,55,"14900_55_56_58_99","Gulf and Atlantic Coastal Plain Tidal Marsh Systems","Riparian",5,288,-9999,5,98,2,-9999,"II-A",255,235,0,1,0.921569,0,2574,11.6
+"5",1305,5083,14530,55,"14530_55_56","Central Florida Pine Flatwoods","Riparian",84,8941,2,2,3,1,96,"I-A",150,245,103,0.588235,0.960784,0.403922,1130,5.1
+"6",1310,2698,14730,55,"14730_55_58_60","Gulf and Atlantic Coastal Plain Floodplain Systems","Riparian",114,-9999,101,54,47,-9999,53,"III-A",102,119,205,0.4,0.466667,0.803922,600,2.7
+"7",1314,2599,14890,55,"14890_55_56_99","Floridian Highlands Freshwater Marsh","Riparian",5,69,-9999,5,93,7,-9999,"II-A",240,255,94,0.941176,1,0.368627,578,2.6
+"8",31,557,31,0,"0","Barren-Rock/Sand/Clay","Barren-Rock/Sand/Clay",-9999,-9999,-9999,-9999,-9999,-9999,-9999,"-9999",191,191,191,0.74902,0.74902,0.74902,124,0.6
+"9",1311,475,14740,55,"14740_46_47_48_55_56_58_60_99","Gulf and Atlantic Coastal Plain Small Stream Riparian Systems","Riparian",477,202,131,68,14,34,52,"III-A",171,185,235,0.670588,0.72549,0.921569,106,0.5
+"10",1307,315,14600,55,"14600_55_56_99","Southern Coastal Plain Nonriverine Cypress Dome","Riparian",126,-9999,10,9,7,-9999,93,"I-B",168,10,0,0.658824,0.039216,0,70,0.3
+"11",1308,95,14610,55,"14610_46_55_56_99","Southern Coastal Plain Seepage Swamp and Baygall","Riparian",297,356,-9999,162,55,45,-9999,"III-B",190,232,255,0.745098,0.909804,1,21,0.1
+"12",1297,2,13470,55,"13470_55_58_60","Atlantic Coastal Plain Upland Longleaf Pine Woodland","Conifer",131,376,4,4,3,1,96,"I-A",135,186,24,0.529412,0.729412,0.094118,0,0
+"13",1300,14,13570,55,"13570_46_47_55_58_99","Southern Coastal Plain Mesic Slope Forest","Hardwood",402,159,52,35,9,22,69,"I-C",191,151,71,0.74902,0.592157,0.278431,3,0
+"14",1303,5,13870,55,"13870_55_56","Florida Peninsula Inland Scrub","Shrubland",33,1277,-9999,33,97,3,-9999,"II-C",255,200,0,1,0.784314,0,1,0

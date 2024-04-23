@@ -1,0 +1,6 @@
+1305,150,245,103,255,Central Florida Pine Flatwoods
+1314,240,255,94,255,Floridian Highlands Freshwater Marsh
+1310,102,119,205,255,Gulf and Atlantic Coastal Plain Floodplain Systems
+1312,102,212,179,255,Gulf and Atlantic Coastal Plain Swamp Systems
+1315,255,235,0,255,Gulf and Atlantic Coastal Plain Tidal Marsh Systems
+1302,186,130,255,255,Southern Atlantic Coastal Plain Maritime Forest

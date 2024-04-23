@@ -1,0 +1,105 @@
+"","TransitionGroupID","Model_Code","annual_probability","BpS_Name","...1","BLUE","ACRES","REL_PERCENT","annual_dist_acres"
+"1","All Fire","13470_55_58_60",0.2424406,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"2","All Fire","13570_46_47_55_58_99",0.027985,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.083955
+"3","All Fire","13820_55_58",0.0841192,"Southern Atlantic Coastal Plain Maritime Forest",2,1,5722,25.9,481.3300624
+"4","All Fire","13870_55_56",0.03126,"Florida Peninsula Inland Scrub",14,0,1,0,0.03126
+"5","All Fire","14530_55_56",0.4158538,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,469.914794
+"6","All Fire","14600_55_56_99",0.1093216,"Southern Coastal Plain Nonriverine Cypress Dome",10,0,70,0.3,7.652512
+"7","All Fire","14610_46_55_56_99",0.0061854,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.1298934
+"8","All Fire","14730_55_58_60",0.018849,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,11.3094
+"9","All Fire","14740_46_47_48_55_56_58_60_99",0.014759,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,1.564454
+"10","All Fire","14800_55_99",0.0045442,"Gulf and Atlantic Coastal Plain Swamp Systems",3,0.701961,3375,15.2,15.336675
+"11","All Fire","14890_55_56_99",0.201122,"Floridian Highlands Freshwater Marsh",7,0.368627,578,2.6,116.248516
+"12","All Fire","14900_55_56_58_99",0.1952812,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,502.6538088
+"13","All Transitions","13470_55_58_60",0.2536098,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"14","All Transitions","13570_46_47_55_58_99",0.0355016,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.1065048
+"15","All Transitions","13820_55_58",0.089893,"Southern Atlantic Coastal Plain Maritime Forest",2,1,5722,25.9,514.367746
+"16","All Transitions","13870_55_56",0.0449628,"Florida Peninsula Inland Scrub",14,0,1,0,0.0449628
+"17","All Transitions","14530_55_56",0.4294638,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,485.294094
+"18","All Transitions","14600_55_56_99",0.110848,"Southern Coastal Plain Nonriverine Cypress Dome",10,0,70,0.3,7.75936
+"19","All Transitions","14610_46_55_56_99",0.0165428,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.3473988
+"20","All Transitions","14730_55_58_60",0.0294752,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,17.68512
+"21","All Transitions","14740_46_47_48_55_56_58_60_99",0.043233,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,4.582698
+"22","All Transitions","14800_55_99",0.0136068,"Gulf and Atlantic Coastal Plain Swamp Systems",3,0.701961,3375,15.2,45.92295
+"23","All Transitions","14890_55_56_99",0.2012622,"Floridian Highlands Freshwater Marsh",7,0.368627,578,2.6,116.3295516
+"24","All Transitions","14900_55_56_58_99",0.2018944,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,519.6761856
+"25","Alternative Succession","13470_55_58_60",0.0035016,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"26","Alternative Succession","13570_46_47_55_58_99",0.0044454,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.0133362
+"27","Alternative Succession","13820_55_58",0.0057738,"Southern Atlantic Coastal Plain Maritime Forest",2,1,5722,25.9,33.0376836
+"28","Alternative Succession","13870_55_56",0.0078684,"Florida Peninsula Inland Scrub",14,0,1,0,0.0078684
+"29","Alternative Succession","14530_55_56",0.0002404,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,0.271652
+"30","Alternative Succession","14600_55_56_99",0.0015264,"Southern Coastal Plain Nonriverine Cypress Dome",10,0,70,0.3,0.106848
+"31","Alternative Succession","14610_46_55_56_99",0.0028358,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.0595518
+"32","Alternative Succession","14740_46_47_48_55_56_58_60_99",0.0069354,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.7351524
+"33","Competition or Maintenance","13470_55_58_60",0.0047488,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"34","Competition or Maintenance","14740_46_47_48_55_56_58_60_99",0.0052564,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.5571784
+"35","Insect or Disease","13470_55_58_60",0.0008552,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"36","Insect or Disease","13870_55_56",0.0015254,"Florida Peninsula Inland Scrub",14,0,1,0,0.0015254
+"37","Insect or Disease","14730_55_58_60",0.0021858,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,1.31148
+"38","Mixed Fire","13470_55_58_60",0.002689,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"39","Mixed Fire","13570_46_47_55_58_99",0.0062596,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.0187788
+"40","Mixed Fire","13820_55_58",0.0011414,"Southern Atlantic Coastal Plain Maritime Forest",2,1,5722,25.9,6.5310908
+"41","Mixed Fire","13870_55_56",0.000816,"Florida Peninsula Inland Scrub",14,0,1,0,0.000816
+"42","Mixed Fire","14530_55_56",0.0001164,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,0.131532
+"43","Mixed Fire","14610_46_55_56_99",0.0028294,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.0594174
+"44","Mixed Fire","14740_46_47_48_55_56_58_60_99",0.0049002,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.5194212
+"45","Mixed Fire","14890_55_56_99",0.014605,"Floridian Highlands Freshwater Marsh",7,0.368627,578,2.6,8.44169
+"46","Mixed Fire","14900_55_56_58_99",0.0035964,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,9.2571336
+"47","Non Fire Disturbances","13470_55_58_60",0.0076676,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"48","Non Fire Disturbances","13570_46_47_55_58_99",0.0030712,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.0092136
+"49","Non Fire Disturbances","13870_55_56",0.0058344,"Florida Peninsula Inland Scrub",14,0,1,0,0.0058344
+"50","Non Fire Disturbances","14530_55_56",0.0133696,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,15.107648
+"51","Non Fire Disturbances","14610_46_55_56_99",0.0075216,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.1579536
+"52","Non Fire Disturbances","14730_55_58_60",0.0106262,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,6.37572
+"53","Non Fire Disturbances","14740_46_47_48_55_56_58_60_99",0.0215386,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,2.2830916
+"54","Non Fire Disturbances","14800_55_99",0.0090626,"Gulf and Atlantic Coastal Plain Swamp Systems",3,0.701961,3375,15.2,30.586275
+"55","Non Fire Disturbances","14890_55_56_99",0.0001402,"Floridian Highlands Freshwater Marsh",7,0.368627,578,2.6,0.0810356
+"56","Non Fire Disturbances","14900_55_56_58_99",0.0066132,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,17.0223768
+"57","Non Replacement Fire","13470_55_58_60",0.2348616,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"58","Non Replacement Fire","13570_46_47_55_58_99",0.0255472,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.0766416
+"59","Non Replacement Fire","13820_55_58",0.069837,"Southern Atlantic Coastal Plain Maritime Forest",2,1,5722,25.9,399.607314
+"60","Non Replacement Fire","13870_55_56",0.000816,"Florida Peninsula Inland Scrub",14,0,1,0,0.000816
+"61","Non Replacement Fire","14530_55_56",0.4037916,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,456.284508
+"62","Non Replacement Fire","14600_55_56_99",0.1013346,"Southern Coastal Plain Nonriverine Cypress Dome",10,0,70,0.3,7.093422
+"63","Non Replacement Fire","14610_46_55_56_99",0.0028294,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.0594174
+"64","Non Replacement Fire","14730_55_58_60",0.0100328,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,6.01968
+"65","Non Replacement Fire","14740_46_47_48_55_56_58_60_99",0.0126596,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,1.3419176
+"66","Non Replacement Fire","14800_55_99",0.0045442,"Gulf and Atlantic Coastal Plain Swamp Systems",3,0.701961,3375,15.2,15.336675
+"67","Non Replacement Fire","14890_55_56_99",0.014605,"Floridian Highlands Freshwater Marsh",7,0.368627,578,2.6,8.44169
+"68","Non Replacement Fire","14900_55_56_58_99",0.0035964,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,9.2571336
+"69","Optional 1","14730_55_58_60",0.0053318,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,3.19908
+"70","Optional 1","14740_46_47_48_55_56_58_60_99",0.0069896,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.7408976
+"71","Optional 1","14900_55_56_58_99",0.0045984,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,11.8362816
+"72","Optional 2","14740_46_47_48_55_56_58_60_99",0.0025606,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.2714236
+"73","Optional 2","14900_55_56_58_99",0.0020148,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,5.1860952
+"74","Optional Types","14730_55_58_60",0.0053318,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,3.19908
+"75","Optional Types","14740_46_47_48_55_56_58_60_99",0.0095502,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,1.0123212
+"76","Optional Types","14900_55_56_58_99",0.0066132,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,17.0223768
+"77","Replacement Fire","13470_55_58_60",0.007579,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"78","Replacement Fire","13570_46_47_55_58_99",0.0024378,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.0073134
+"79","Replacement Fire","13820_55_58",0.0142822,"Southern Atlantic Coastal Plain Maritime Forest",2,1,5722,25.9,81.7227484
+"80","Replacement Fire","13870_55_56",0.030444,"Florida Peninsula Inland Scrub",14,0,1,0,0.030444
+"81","Replacement Fire","14530_55_56",0.0120622,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,13.630286
+"82","Replacement Fire","14600_55_56_99",0.007987,"Southern Coastal Plain Nonriverine Cypress Dome",10,0,70,0.3,0.55909
+"83","Replacement Fire","14610_46_55_56_99",0.003356,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.070476
+"84","Replacement Fire","14730_55_58_60",0.0088162,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,5.28972
+"85","Replacement Fire","14740_46_47_48_55_56_58_60_99",0.0020994,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.2225364
+"86","Replacement Fire","14890_55_56_99",0.186517,"Floridian Highlands Freshwater Marsh",7,0.368627,578,2.6,107.806826
+"87","Replacement Fire","14900_55_56_58_99",0.1916848,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",4,0,2574,11.6,493.3966752
+"88","Surface Fire","13470_55_58_60",0.2321726,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"89","Surface Fire","13570_46_47_55_58_99",0.0192876,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.0578628
+"90","Surface Fire","13820_55_58",0.0686956,"Southern Atlantic Coastal Plain Maritime Forest",2,1,5722,25.9,393.0762232
+"91","Surface Fire","14530_55_56",0.4036752,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,456.152976
+"92","Surface Fire","14600_55_56_99",0.1013346,"Southern Coastal Plain Nonriverine Cypress Dome",10,0,70,0.3,7.093422
+"93","Surface Fire","14730_55_58_60",0.0100328,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,6.01968
+"94","Surface Fire","14740_46_47_48_55_56_58_60_99",0.0077594,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.8224964
+"95","Surface Fire","14800_55_99",0.0045442,"Gulf and Atlantic Coastal Plain Swamp Systems",3,0.701961,3375,15.2,15.336675
+"96","Wind or Weather or Stress","13470_55_58_60",0.0020636,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",12,0.094118,0,0,0
+"97","Wind or Weather or Stress","13570_46_47_55_58_99",0.0030712,"Southern Coastal Plain Mesic Slope Forest",13,0.278431,3,0,0.0092136
+"98","Wind or Weather or Stress","13870_55_56",0.004309,"Florida Peninsula Inland Scrub",14,0,1,0,0.004309
+"99","Wind or Weather or Stress","14530_55_56",0.0133696,"Central Florida Pine Flatwoods",5,0.403922,1130,5.1,15.107648
+"100","Wind or Weather or Stress","14610_46_55_56_99",0.0075216,"Southern Coastal Plain Seepage Swamp and Baygall",11,1,21,0.1,0.1579536
+"101","Wind or Weather or Stress","14730_55_58_60",0.0031086,"Gulf and Atlantic Coastal Plain Floodplain Systems",6,0.803922,600,2.7,1.86516
+"102","Wind or Weather or Stress","14740_46_47_48_55_56_58_60_99",0.006732,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",9,0.921569,106,0.5,0.713592
+"103","Wind or Weather or Stress","14800_55_99",0.0090626,"Gulf and Atlantic Coastal Plain Swamp Systems",3,0.701961,3375,15.2,30.586275
+"104","Wind or Weather or Stress","14890_55_56_99",0.0001402,"Floridian Highlands Freshwater Marsh",7,0.368627,578,2.6,0.0810356

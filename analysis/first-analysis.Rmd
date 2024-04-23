@@ -3,27 +3,130 @@ title: "first-analysis"
 output: html_document
 date: "2024-02-22"
 ---
+# Here I will demonstrate some R data skills from my R class. I will analyze the difference in NMAT/GTM areas, using Landfire GIS code.
+```{r}
+install.packages(c("raster","foreign","sf","terra"))
+library(foreign)
+library(raster)
+library(sf)
+library(terra)
+library(tidyverse)
+library(tools)
+library(varhandle)
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+landscape_name <- "GTM"
 ```
 
-## R Markdown
+## Read in shapefile
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r read shapefile, message=FALSE, warning=FALSE, include=FALSE}
+#  read shape
+shp <- st_read("aarons/inputs/GTM.shp") %>% 
+  st_transform(crs = 5070) %>%
+  st_union() %>%
+  st_sf()
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+vect(shp)
+plot(shp)
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+```{r}
+bps_aoi <- rast("/aarons/inputs/LF20_BPS_220.tif") %>%
+  crop(shp) %>%
+  mask(shp)
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+
+bps_conus_atts <- read.csv("inputs/LF20_BPS_220.csv")
+
+# bps_aoi <-  bps_conus_r %>%
+#   crop(shp) %>%
+#   mask(shp)
+
+levels(bps_aoi)[[1]] <- bps_conus_atts
+activeCat(bps_aoi) <- "VALUE"
+
+
+bps_aoi_atts <- values(bps_aoi, dataframe = T, na.rm = T) %>%
+  table(dnn = "VALUE") %>%
+  as.data.frame() %>%
+  mutate_all(as.character) %>%
+  mutate_all(as.integer) %>%
+  left_join(cats(bps_aoi)[[1]], by = "VALUE") %>%
+  filter(Freq != 0) %>%
+  mutate(ACRES = round((Freq * 900 / 4046.86), 0),
+   REL_PERCENT = round((Freq / sum(Freq)), 3) * 100) %>%
+  arrange(desc(REL_PERCENT))
+
+
+writeRaster(bps_aoi, "outputs/gtm/bps_aoi.tif",
+          gdal = c("COMPRESS=NONE", "TFW=YES"),
+          datatype = "INT2S",
+          overwrite = T)
+
+write.dbf(bps_aoi_atts, "outputs/gtm/bps_aoi.tif.vat.dbf")
+
+## write csv for fun
+write.csv(bps_aoi_atts, "outputs/gtm/bps_aoi_attributes.csv")
+
+## for charts and map legend 
+
+bps_aoi_atts  <- read_csv("outputs/gtm/bps_aoi_attributes.csv")
+    
+bpsname10 <- bps_aoi_atts %>%
+  group_by(BPS_NAME) %>%
+  summarize(ACRES = sum(ACRES),
+            REL_PERCENT = sum(REL_PERCENT)) %>%
+  arrange(desc(REL_PERCENT)) %>%
+  subset(BPS_NAME != "Open Water" & BPS_NAME != "Barren-Rock/Sand/Clay") %>%
+  distinct(BPS_NAME, .keep_all = TRUE) %>%
+  top_n(n = 10, wt = REL_PERCENT) 
+    
+
+## try new color file
+ summary_bps_name <- bps_aoi_atts %>%
+   subset(BPS_NAME != "Open Water" & BPS_NAME != "Barren-Rock/Sand/Clay") %>%
+   group_by(BPS_NAME) %>%
+   summarise(bps_name_totals = sum(REL_PERCENT)) %>%
+   ungroup()
+
+
+
+## if using BpSs with amounts > certain percent
+
+top_groups <- summary_bps_name %>%
+  filter(bps_name_totals >= 1)
+
+ filtered_bps_name_groups <- bps_aoi_atts %>%
+   filter(BPS_NAME %in% top_groups$BPS_NAME)
+ 
+
+
+
+ BpSColorFile <- filtered_bps_name_groups %>%
+       add_column(z = 255) %>%
+       dplyr::select(
+              VALUE,
+              R,
+              G,
+              B,
+              z,
+              BPS_NAME)  %>%
+       arrange(BPS_NAME) 
+ 
+## code for removing geographical labels
+# geographies <- c(
+#                 "Boreal ",
+#                 "Central Interior and Appalachian ",
+#                 "Great Lakes ",
+#                 "Laurentian ",
+#                 "Laurentian-Acadian ",
+#                 "North-Central Interior ")
+# 
+# BpSColorFile$BPS_NAME <- gsub(paste(geographies, collapse = "|"), "", BpSColorFile$BPS_NAME)
+ 
+# 
+write.table(BpSColorFile, file = "outputs/gtm/BpSColorFile.txt", sep = ",",
+                row.names = FALSE, col.names = FALSE, quote = FALSE)
+
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

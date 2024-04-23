@@ -1,0 +1,121 @@
+"","model_label","Model_Code","refLabel","refPercent","BpS_Name","Var1","Var2","Freq","BPS_CODE","ZONE","total_count","currentPercent"
+"1","13470_55_58_60_A","13470_55_58_60","A",13,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"2","13470_55_58_60_B","13470_55_58_60","B",5,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",1297,2,1,13470,55,2,50
+"3","13470_55_58_60_C","13470_55_58_60","C",40,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"4","13470_55_58_60_D","13470_55_58_60","D",40,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"5","13470_55_58_60_E","13470_55_58_60","E",2,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"6","13470_55_58_60_Agriculture","13470_55_58_60","Agriculture",0,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"7","13470_55_58_60_Developed","13470_55_58_60","Developed",0,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",1297,120,1,13470,55,2,50
+"8","13470_55_58_60_Water","13470_55_58_60","Water",0,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"9","13470_55_58_60_UN","13470_55_58_60","UN",0,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"10","13470_55_58_60_UE","13470_55_58_60","UE",0,"Atlantic Coastal Plain Upland Longleaf Pine Woodland",NA,NA,NA,NA,NA,NA,NA
+"11","13570_46_47_55_58_99_A","13570_46_47_55_58_99","A",8,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"12","13570_46_47_55_58_99_B","13570_46_47_55_58_99","B",30,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"13","13570_46_47_55_58_99_C","13570_46_47_55_58_99","C",6,"Southern Coastal Plain Mesic Slope Forest",1300,3,5,13570,55,14,35
+"14","13570_46_47_55_58_99_D","13570_46_47_55_58_99","D",15,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"15","13570_46_47_55_58_99_E","13570_46_47_55_58_99","E",41,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"16","13570_46_47_55_58_99_Agriculture","13570_46_47_55_58_99","Agriculture",0,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"17","13570_46_47_55_58_99_Developed","13570_46_47_55_58_99","Developed",0,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"18","13570_46_47_55_58_99_Water","13570_46_47_55_58_99","Water",0,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"19","13570_46_47_55_58_99_UN","13570_46_47_55_58_99","UN",0,"Southern Coastal Plain Mesic Slope Forest",NA,NA,NA,NA,NA,NA,NA
+"20","13570_46_47_55_58_99_UE","13570_46_47_55_58_99","UE",0,"Southern Coastal Plain Mesic Slope Forest",1300,7,9,13570,55,14,64
+"21","13820_55_58_A","13820_55_58","A",21,"Southern Atlantic Coastal Plain Maritime Forest",1302,1,2093,13820,55,25730,8
+"22","13820_55_58_B","13820_55_58","B",12,"Southern Atlantic Coastal Plain Maritime Forest",1302,2,2896,13820,55,25730,11
+"23","13820_55_58_C","13820_55_58","C",32,"Southern Atlantic Coastal Plain Maritime Forest",1302,3,1325,13820,55,25730,5
+"24","13820_55_58_D","13820_55_58","D",17,"Southern Atlantic Coastal Plain Maritime Forest",1302,4,602,13820,55,25730,2
+"25","13820_55_58_E","13820_55_58","E",18,"Southern Atlantic Coastal Plain Maritime Forest",1302,5,8628,13820,55,25730,33
+"26","13820_55_58_Agriculture","13820_55_58","Agriculture",0,"Southern Atlantic Coastal Plain Maritime Forest",1302,180,91,13820,55,25730,0
+"27","13820_55_58_Developed","13820_55_58","Developed",0,"Southern Atlantic Coastal Plain Maritime Forest",1302,120,3405,13820,55,25730,13
+"28","13820_55_58_Water","13820_55_58","Water",0,"Southern Atlantic Coastal Plain Maritime Forest",NA,NA,NA,NA,NA,NA,NA
+"29","13820_55_58_UN","13820_55_58","UN",0,"Southern Atlantic Coastal Plain Maritime Forest",NA,NA,NA,NA,NA,NA,NA
+"30","13820_55_58_UE","13820_55_58","UE",0,"Southern Atlantic Coastal Plain Maritime Forest",1302,7,6690,13820,55,25730,26
+"31","13870_55_56_A","13870_55_56","A",15,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"32","13870_55_56_B","13870_55_56","B",52,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"33","13870_55_56_C","13870_55_56","C",15,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"34","13870_55_56_D","13870_55_56","D",9,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"35","13870_55_56_E","13870_55_56","E",9,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"36","13870_55_56_Agriculture","13870_55_56","Agriculture",0,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"37","13870_55_56_Developed","13870_55_56","Developed",0,"Florida Peninsula Inland Scrub",1303,120,3,13870,55,5,60
+"38","13870_55_56_Water","13870_55_56","Water",0,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"39","13870_55_56_UN","13870_55_56","UN",0,"Florida Peninsula Inland Scrub",NA,NA,NA,NA,NA,NA,NA
+"40","13870_55_56_UE","13870_55_56","UE",0,"Florida Peninsula Inland Scrub",1303,7,2,13870,55,5,40
+"41","14530_55_56_A","14530_55_56","A",17,"Central Florida Pine Flatwoods",1305,1,706,14530,55,5083,13
+"42","14530_55_56_B","14530_55_56","B",1,"Central Florida Pine Flatwoods",1305,2,997,14530,55,5083,19
+"43","14530_55_56_C","14530_55_56","C",36,"Central Florida Pine Flatwoods",1305,3,1020,14530,55,5083,20
+"44","14530_55_56_D","14530_55_56","D",45,"Central Florida Pine Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"45","14530_55_56_E","14530_55_56","E",1,"Central Florida Pine Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"46","14530_55_56_Agriculture","14530_55_56","Agriculture",0,"Central Florida Pine Flatwoods",1305,180,3,14530,55,5083,0
+"47","14530_55_56_Developed","14530_55_56","Developed",0,"Central Florida Pine Flatwoods",1305,120,554,14530,55,5083,10
+"48","14530_55_56_Water","14530_55_56","Water",0,"Central Florida Pine Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"49","14530_55_56_UN","14530_55_56","UN",0,"Central Florida Pine Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"50","14530_55_56_UE","14530_55_56","UE",0,"Central Florida Pine Flatwoods",1305,7,1803,14530,55,5083,35
+"51","14600_55_56_99_A","14600_55_56_99","A",11,"Southern Coastal Plain Nonriverine Cypress Dome",1307,1,9,14600,55,315,2
+"52","14600_55_56_99_B","14600_55_56_99","B",1,"Southern Coastal Plain Nonriverine Cypress Dome",1307,2,15,14600,55,315,4
+"53","14600_55_56_99_C","14600_55_56_99","C",24,"Southern Coastal Plain Nonriverine Cypress Dome",1307,3,8,14600,55,315,2
+"54","14600_55_56_99_D","14600_55_56_99","D",57,"Southern Coastal Plain Nonriverine Cypress Dome",1307,4,64,14600,55,315,20
+"55","14600_55_56_99_E","14600_55_56_99","E",7,"Southern Coastal Plain Nonriverine Cypress Dome",1307,5,156,14600,55,315,49
+"56","14600_55_56_99_Agriculture","14600_55_56_99","Agriculture",0,"Southern Coastal Plain Nonriverine Cypress Dome",1307,180,1,14600,55,315,0
+"57","14600_55_56_99_Developed","14600_55_56_99","Developed",0,"Southern Coastal Plain Nonriverine Cypress Dome",1307,120,19,14600,55,315,6
+"58","14600_55_56_99_Water","14600_55_56_99","Water",0,"Southern Coastal Plain Nonriverine Cypress Dome",NA,NA,NA,NA,NA,NA,NA
+"59","14600_55_56_99_UN","14600_55_56_99","UN",0,"Southern Coastal Plain Nonriverine Cypress Dome",NA,NA,NA,NA,NA,NA,NA
+"60","14600_55_56_99_UE","14600_55_56_99","UE",0,"Southern Coastal Plain Nonriverine Cypress Dome",1307,7,43,14600,55,315,13
+"61","14610_46_55_56_99_A","14610_46_55_56_99","A",13,"Southern Coastal Plain Seepage Swamp and Baygall",1308,1,19,14610,55,95,20
+"62","14610_46_55_56_99_B","14610_46_55_56_99","B",23,"Southern Coastal Plain Seepage Swamp and Baygall",1308,2,12,14610,55,95,12
+"63","14610_46_55_56_99_C","14610_46_55_56_99","C",3,"Southern Coastal Plain Seepage Swamp and Baygall",1308,3,28,14610,55,95,29
+"64","14610_46_55_56_99_D","14610_46_55_56_99","D",6,"Southern Coastal Plain Seepage Swamp and Baygall",NA,NA,NA,NA,NA,NA,NA
+"65","14610_46_55_56_99_E","14610_46_55_56_99","E",55,"Southern Coastal Plain Seepage Swamp and Baygall",NA,NA,NA,NA,NA,NA,NA
+"66","14610_46_55_56_99_Agriculture","14610_46_55_56_99","Agriculture",0,"Southern Coastal Plain Seepage Swamp and Baygall",NA,NA,NA,NA,NA,NA,NA
+"67","14610_46_55_56_99_Developed","14610_46_55_56_99","Developed",0,"Southern Coastal Plain Seepage Swamp and Baygall",1308,120,19,14610,55,95,20
+"68","14610_46_55_56_99_Water","14610_46_55_56_99","Water",0,"Southern Coastal Plain Seepage Swamp and Baygall",NA,NA,NA,NA,NA,NA,NA
+"69","14610_46_55_56_99_UN","14610_46_55_56_99","UN",0,"Southern Coastal Plain Seepage Swamp and Baygall",NA,NA,NA,NA,NA,NA,NA
+"70","14610_46_55_56_99_UE","14610_46_55_56_99","UE",0,"Southern Coastal Plain Seepage Swamp and Baygall",1308,7,17,14610,55,95,17
+"71","14730_55_58_60_A","14730_55_58_60","A",22,"Gulf and Atlantic Coastal Plain Floodplain Systems",1310,1,2313,14730,55,2698,85
+"72","14730_55_58_60_B","14730_55_58_60","B",31,"Gulf and Atlantic Coastal Plain Floodplain Systems",1310,2,11,14730,55,2698,0
+"73","14730_55_58_60_C","14730_55_58_60","C",26,"Gulf and Atlantic Coastal Plain Floodplain Systems",NA,NA,NA,NA,NA,NA,NA
+"74","14730_55_58_60_D","14730_55_58_60","D",21,"Gulf and Atlantic Coastal Plain Floodplain Systems",1310,4,296,14730,55,2698,10
+"75","14730_55_58_60_E","14730_55_58_60","E",NA,"Gulf and Atlantic Coastal Plain Floodplain Systems",NA,NA,NA,NA,NA,NA,NA
+"76","14730_55_58_60_Agriculture","14730_55_58_60","Agriculture",0,"Gulf and Atlantic Coastal Plain Floodplain Systems",NA,NA,NA,NA,NA,NA,NA
+"77","14730_55_58_60_Developed","14730_55_58_60","Developed",0,"Gulf and Atlantic Coastal Plain Floodplain Systems",1310,120,3,14730,55,2698,0
+"78","14730_55_58_60_Water","14730_55_58_60","Water",0,"Gulf and Atlantic Coastal Plain Floodplain Systems",NA,NA,NA,NA,NA,NA,NA
+"79","14730_55_58_60_UN","14730_55_58_60","UN",0,"Gulf and Atlantic Coastal Plain Floodplain Systems",NA,NA,NA,NA,NA,NA,NA
+"80","14730_55_58_60_UE","14730_55_58_60","UE",0,"Gulf and Atlantic Coastal Plain Floodplain Systems",1310,7,75,14730,55,2698,2
+"81","14740_46_47_48_55_56_58_60_99_A","14740_46_47_48_55_56_58_60_99","A",16,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",1311,1,382,14740,55,475,80
+"82","14740_46_47_48_55_56_58_60_99_B","14740_46_47_48_55_56_58_60_99","B",23,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",1311,2,1,14740,55,475,0
+"83","14740_46_47_48_55_56_58_60_99_C","14740_46_47_48_55_56_58_60_99","C",4,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",1311,3,31,14740,55,475,6
+"84","14740_46_47_48_55_56_58_60_99_D","14740_46_47_48_55_56_58_60_99","D",24,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",NA,NA,NA,NA,NA,NA,NA
+"85","14740_46_47_48_55_56_58_60_99_E","14740_46_47_48_55_56_58_60_99","E",33,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",NA,NA,NA,NA,NA,NA,NA
+"86","14740_46_47_48_55_56_58_60_99_Agriculture","14740_46_47_48_55_56_58_60_99","Agriculture",0,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",NA,NA,NA,NA,NA,NA,NA
+"87","14740_46_47_48_55_56_58_60_99_Developed","14740_46_47_48_55_56_58_60_99","Developed",0,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",1311,120,43,14740,55,475,9
+"88","14740_46_47_48_55_56_58_60_99_Water","14740_46_47_48_55_56_58_60_99","Water",0,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",NA,NA,NA,NA,NA,NA,NA
+"89","14740_46_47_48_55_56_58_60_99_UN","14740_46_47_48_55_56_58_60_99","UN",0,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",NA,NA,NA,NA,NA,NA,NA
+"90","14740_46_47_48_55_56_58_60_99_UE","14740_46_47_48_55_56_58_60_99","UE",0,"Gulf and Atlantic Coastal Plain Small Stream Riparian Systems",1311,7,18,14740,55,475,3
+"91","14800_55_99_A","14800_55_99","A",10,"Gulf and Atlantic Coastal Plain Swamp Systems",1312,1,5184,14800,55,15175,34
+"92","14800_55_99_B","14800_55_99","B",16,"Gulf and Atlantic Coastal Plain Swamp Systems",1312,2,865,14800,55,15175,5
+"93","14800_55_99_C","14800_55_99","C",74,"Gulf and Atlantic Coastal Plain Swamp Systems",1312,3,7517,14800,55,15175,49
+"94","14800_55_99_D","14800_55_99","D",NA,"Gulf and Atlantic Coastal Plain Swamp Systems",NA,NA,NA,NA,NA,NA,NA
+"95","14800_55_99_E","14800_55_99","E",NA,"Gulf and Atlantic Coastal Plain Swamp Systems",NA,NA,NA,NA,NA,NA,NA
+"96","14800_55_99_Agriculture","14800_55_99","Agriculture",0,"Gulf and Atlantic Coastal Plain Swamp Systems",1312,180,6,14800,55,15175,0
+"97","14800_55_99_Developed","14800_55_99","Developed",0,"Gulf and Atlantic Coastal Plain Swamp Systems",1312,120,327,14800,55,15175,2
+"98","14800_55_99_Water","14800_55_99","Water",0,"Gulf and Atlantic Coastal Plain Swamp Systems",NA,NA,NA,NA,NA,NA,NA
+"99","14800_55_99_UN","14800_55_99","UN",0,"Gulf and Atlantic Coastal Plain Swamp Systems",NA,NA,NA,NA,NA,NA,NA
+"100","14800_55_99_UE","14800_55_99","UE",0,"Gulf and Atlantic Coastal Plain Swamp Systems",1312,7,1276,14800,55,15175,8
+"101","14890_55_56_99_A","14890_55_56_99","A",19,"Floridian Highlands Freshwater Marsh",1314,1,843,14890,55,2599,32
+"102","14890_55_56_99_B","14890_55_56_99","B",70,"Floridian Highlands Freshwater Marsh",1314,2,1232,14890,55,2599,47
+"103","14890_55_56_99_C","14890_55_56_99","C",8,"Floridian Highlands Freshwater Marsh",1314,3,23,14890,55,2599,0
+"104","14890_55_56_99_D","14890_55_56_99","D",2,"Floridian Highlands Freshwater Marsh",NA,NA,NA,NA,NA,NA,NA
+"105","14890_55_56_99_E","14890_55_56_99","E",1,"Floridian Highlands Freshwater Marsh",1314,5,402,14890,55,2599,15
+"106","14890_55_56_99_Agriculture","14890_55_56_99","Agriculture",0,"Floridian Highlands Freshwater Marsh",NA,NA,NA,NA,NA,NA,NA
+"107","14890_55_56_99_Developed","14890_55_56_99","Developed",0,"Floridian Highlands Freshwater Marsh",1314,120,9,14890,55,2599,0
+"108","14890_55_56_99_Water","14890_55_56_99","Water",0,"Floridian Highlands Freshwater Marsh",NA,NA,NA,NA,NA,NA,NA
+"109","14890_55_56_99_UN","14890_55_56_99","UN",0,"Floridian Highlands Freshwater Marsh",NA,NA,NA,NA,NA,NA,NA
+"110","14890_55_56_99_UE","14890_55_56_99","UE",0,"Floridian Highlands Freshwater Marsh",1314,7,90,14890,55,2599,3
+"111","14900_55_56_58_99_A","14900_55_56_58_99","A",57,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",1315,1,11165,14900,55,11575,96
+"112","14900_55_56_58_99_B","14900_55_56_58_99","B",26,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",NA,NA,NA,NA,NA,NA,NA
+"113","14900_55_56_58_99_C","14900_55_56_58_99","C",6,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",NA,NA,NA,NA,NA,NA,NA
+"114","14900_55_56_58_99_D","14900_55_56_58_99","D",11,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",1315,4,216,14900,55,11575,1
+"115","14900_55_56_58_99_E","14900_55_56_58_99","E",NA,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",NA,NA,NA,NA,NA,NA,NA
+"116","14900_55_56_58_99_Agriculture","14900_55_56_58_99","Agriculture",0,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",1315,180,1,14900,55,11575,0
+"117","14900_55_56_58_99_Developed","14900_55_56_58_99","Developed",0,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",1315,120,23,14900,55,11575,0
+"118","14900_55_56_58_99_Water","14900_55_56_58_99","Water",0,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",NA,NA,NA,NA,NA,NA,NA
+"119","14900_55_56_58_99_UN","14900_55_56_58_99","UN",0,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",1315,6,137,14900,55,11575,1
+"120","14900_55_56_58_99_UE","14900_55_56_58_99","UE",0,"Gulf and Atlantic Coastal Plain Tidal Marsh Systems",1315,7,33,14900,55,11575,0
