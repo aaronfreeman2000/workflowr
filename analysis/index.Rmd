@@ -20,6 +20,6 @@ I will also talk about additional projects I am included in, and prior experienc
 
 Click on this [link](about.html) to learn about my current research project.
 
-Click on this [link](first-analysis.html) to view my current results and data. This page current holds example data until real data is extracted.
+Click on this [link](first-analysis.html) to view my current results and data.
 
 ![Cape May, NJ](assets/aaronboat.png)
