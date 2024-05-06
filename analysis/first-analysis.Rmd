@@ -3,130 +3,125 @@ title: "first-analysis"
 output: html_document
 date: "2024-02-22"
 ---
-# Here I will demonstrate some R data skills from my R class. I will analyze the difference in NMAT/GTM areas, using Landfire GIS code.
+# Random Tree Supervised Classification Analysis
+
+#### Here is what the supervised classification looks like
+
+![Random Tree Classification, 2018 to 2024 @GTMNERR St. Augustine, Florida](assets/RTClassification.jpg)
+
+#### To analyze this data, I will create a chord diagram using the classification results.
 ```{r}
-install.packages(c("raster","foreign","sf","terra"))
-library(foreign)
-library(raster)
-library(sf)
-library(terra)
-library(tidyverse)
-library(tools)
-library(varhandle)
+# Setup Working Directory and install necessary packages
+setwd("C:/Users/tuj48066/OneDrive - Temple University/Desktop/Rfiles/Intro to R/workflowr")
+library(pacman)
+library(readr)
+p_load(chorddiag, htmlwidgets, tidyverse, igraph, readr, tidygraph, Matrix)
 
-landscape_name <- "GTM"
+# Read in data and select columns needed for chord diagram
+GTMChange <- read_csv("data/GTMChange2018to2024.csv") %>%
+  select(GTM2018 = Class_From, GTM2024 = Class_To, SquareKM)
+
+# Create a matrix dataframe
+matrixgtm <- as.matrix(as_adjacency_matrix(as_tbl_graph(GTMChange),
+                                            attr = "SquareKM"))
+# Transpose the data frame (it was originally backward)
+matrixgtm <- t(matrixgtm)
+
+# Select colors for the chord diagram
+groupColors <-c( "#7db7c7", # Water
+                 "#56bf5f", # Marsh
+                 "#1d4220", # Mangrove
+                 "#6e4f1e", # Mudflat
+                 "#b0af9e" # developed
+)
+# make chord diagram ------
+chord<-chorddiag(data = matrixgtm,
+                 type = "bipartite",
+                 groupColors = groupColors,
+                 groupnamePadding = 10,
+                 groupPadding = 3,
+                 groupnameFontsize = 12 ,
+                 showTicks = FALSE,
+                 margin=130,
+                 tooltipGroupConnector = "    &#x25B6;    ",
+                 chordedgeColor = "#363533"
+)
+
+chord
 ```
 
-## Read in shapefile
+## Big takeaways from these findings are
 
-```{r read shapefile, message=FALSE, warning=FALSE, include=FALSE}
-#  read shape
-shp <- st_read("aarons/inputs/GTM.shp") %>% 
-  st_transform(crs = 5070) %>%
-  st_union() %>%
-  st_sf()
+Total net marsh loss due to (what we suspect is) sea level-rise/erosion (Between 2018-2024)
 
-vect(shp)
-plot(shp)
-```
+0.722km2.
+
+Total net Mangrove loss due to (what we suspect is) sea level-rise/erosion (Between 2018-2024)
+
+<0.01km2
+
+Area of marshland colonized by mangroves (Between 2018-2024)
+
+0.392km2
+
+
+
+
+## Results compared to LandFire data
+
+#### These results were filtered to show significant habitat type change (>1000 acre change) that occurred in the study region. 
 
 
 ```{r}
-bps_aoi <- rast("/aarons/inputs/LF20_BPS_220.tif") %>%
-  crop(shp) %>%
-  mask(shp)
+setwd("C:/Users/tuj48066/OneDrive - Temple University/Desktop/Rfiles/Intro to R/workflowr")
+library(pacman)
+library(readr)
+p_load(chorddiag, htmlwidgets, tidyverse, igraph, readr, tidygraph, Matrix)
+
+# Read in data and select columns needed for chord diagram
+bps2evt <- read_csv("data/bps2evt.csv") %>%
+  select(Prior = GROUPVEG, Now = EVT_PHYS, ACRES = evt_acres) %>%
+  filter_all(all_vars(. > 1000))
 
 
-bps_conus_atts <- read.csv("inputs/LF20_BPS_220.csv")
+# Create a matrix dataframe
+matrixevt <- as.matrix(as_adjacency_matrix(as_tbl_graph(bps2evt),
+                                            attr = "ACRES"))
+# Transpose the data frame (it was originally backward)
+matrixevt<- t(matrixevt)
 
-# bps_aoi <-  bps_conus_r %>%
-#   crop(shp) %>%
-#   mask(shp)
+# Select colors for the chord diagram
+groupColors <-c( "#1d4220", # conifer 
+                 "#fc9d03", # grassland
+                 "#56bf5f", # hardwood
+                 "#397d3f", # hardwood-conifer 
+                 "#7db7c7", # riparian 
+                 "#f57fdf", # savannah
+                 "#6e4f1e", # shrubland
+                 "#f5e942", # cur ag
+                 "#1d4220", # cur conifer
+                 "#397d3f", # cur hdw-con
+                 "#b0af9e", # developed
+                 "#eb4034", # exotics
+                 "#fc9d03", # grassland
+                 "#56bf5f", # hardwood
+                 "#7db7c7",
+                 "#6e4f1e"# shrubland
+)
+# make chord diagram ------
+chord<-chorddiag(data = matrixevt,
+                 type = "bipartite",
+                 groupColors = groupColors,
+                 groupnamePadding = 10,
+                 groupPadding = 3,
+                 groupnameFontsize = 12 ,
+                 showTicks = FALSE,
+                 margin=130,
+                 tooltipGroupConnector = "    &#x25B6;    ",
+                 chordedgeColor = "#363533"
+)
 
-levels(bps_aoi)[[1]] <- bps_conus_atts
-activeCat(bps_aoi) <- "VALUE"
-
-
-bps_aoi_atts <- values(bps_aoi, dataframe = T, na.rm = T) %>%
-  table(dnn = "VALUE") %>%
-  as.data.frame() %>%
-  mutate_all(as.character) %>%
-  mutate_all(as.integer) %>%
-  left_join(cats(bps_aoi)[[1]], by = "VALUE") %>%
-  filter(Freq != 0) %>%
-  mutate(ACRES = round((Freq * 900 / 4046.86), 0),
-   REL_PERCENT = round((Freq / sum(Freq)), 3) * 100) %>%
-  arrange(desc(REL_PERCENT))
-
-
-writeRaster(bps_aoi, "outputs/gtm/bps_aoi.tif",
-          gdal = c("COMPRESS=NONE", "TFW=YES"),
-          datatype = "INT2S",
-          overwrite = T)
-
-write.dbf(bps_aoi_atts, "outputs/gtm/bps_aoi.tif.vat.dbf")
-
-## write csv for fun
-write.csv(bps_aoi_atts, "outputs/gtm/bps_aoi_attributes.csv")
-
-## for charts and map legend 
-
-bps_aoi_atts  <- read_csv("outputs/gtm/bps_aoi_attributes.csv")
-    
-bpsname10 <- bps_aoi_atts %>%
-  group_by(BPS_NAME) %>%
-  summarize(ACRES = sum(ACRES),
-            REL_PERCENT = sum(REL_PERCENT)) %>%
-  arrange(desc(REL_PERCENT)) %>%
-  subset(BPS_NAME != "Open Water" & BPS_NAME != "Barren-Rock/Sand/Clay") %>%
-  distinct(BPS_NAME, .keep_all = TRUE) %>%
-  top_n(n = 10, wt = REL_PERCENT) 
-    
-
-## try new color file
- summary_bps_name <- bps_aoi_atts %>%
-   subset(BPS_NAME != "Open Water" & BPS_NAME != "Barren-Rock/Sand/Clay") %>%
-   group_by(BPS_NAME) %>%
-   summarise(bps_name_totals = sum(REL_PERCENT)) %>%
-   ungroup()
-
-
-
-## if using BpSs with amounts > certain percent
-
-top_groups <- summary_bps_name %>%
-  filter(bps_name_totals >= 1)
-
- filtered_bps_name_groups <- bps_aoi_atts %>%
-   filter(BPS_NAME %in% top_groups$BPS_NAME)
- 
-
-
-
- BpSColorFile <- filtered_bps_name_groups %>%
-       add_column(z = 255) %>%
-       dplyr::select(
-              VALUE,
-              R,
-              G,
-              B,
-              z,
-              BPS_NAME)  %>%
-       arrange(BPS_NAME) 
- 
-## code for removing geographical labels
-# geographies <- c(
-#                 "Boreal ",
-#                 "Central Interior and Appalachian ",
-#                 "Great Lakes ",
-#                 "Laurentian ",
-#                 "Laurentian-Acadian ",
-#                 "North-Central Interior ")
-# 
-# BpSColorFile$BPS_NAME <- gsub(paste(geographies, collapse = "|"), "", BpSColorFile$BPS_NAME)
- 
-# 
-write.table(BpSColorFile, file = "outputs/gtm/BpSColorFile.txt", sep = ",",
-                row.names = FALSE, col.names = FALSE, quote = FALSE)
-
+chord
 ```
+#### One of the more significant findings from this landfire analysis is that the riparian habitat has been heavily changed into differing habitats such as conifer and hardwood.
+

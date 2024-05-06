@@ -1,0 +1,14 @@
+﻿OBJECTID,Value,Classvalue,Class_name,Class_From,Class_To,Red,Green,Blue,Alpha,Count,Area,SquareMeters,SquareKM
+1,0,61,Water->Marsh,Water,Marsh,142,187,127,255,185,1.49233E-06,1850,0.00185
+2,1,62,Water->Mangrove,Water,Mangrove,95,204,127,255,26,2.09732E-07,260,0.00026
+3,5,66,Marsh->Water,Marsh,Water,141,173,127,255,19634,0.00015838,196340,0.19634
+4,6,67,Marsh->Mangrove,Marsh,Mangrove,122,199,0,255,39215,0.000316333,392150,0.39215
+5,8,69,Marsh->Developed,Marsh,Developed,173,173,89,255,13235,0.000106762,132350,0.13235
+6,9,70,Marsh->Mudflat,Marsh,Mudflat,141,122,0,255,52560,0.000423982,525600,0.5256
+7,10,71,Mangrove->Water,Mangrove,Water,95,204,127,255,63,5.08197E-07,630,0.00063
+8,11,72,Mangrove->Marsh,Mangrove,Marsh,123,213,0,255,20958,0.00016906,209580,0.20958
+9,13,74,Mangrove->Developed,Mangrove,Developed,127,204,89,255,14590,0.000117692,145900,0.1459
+10,14,75,Mangrove->Mudflat,Mangrove,Mudflat,95,153,0,255,31,2.50065E-07,310,0.00031
+11,25,86,Mudflat->Water,Mudflat,Water,115,127,127,255,92331,0.0007448,923310,0.92331
+12,26,87,Mudflat->Marsh,Mudflat,Marsh,142,136,0,255,7236,5.83701E-05,72360,0.07236
+13,27,88,Mudflat->Mangrove,Mudflat,Mangrove,95,153,0,255,2899,2.33852E-05,28990,0.02899

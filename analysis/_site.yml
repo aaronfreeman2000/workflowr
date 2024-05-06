@@ -5,6 +5,8 @@ navbar:
   left:
   - text: Home
     href: index.html
+  - text: First Analysis
+    href: first-analysis.html
   - text: About
     href: about.html
   - text: Experience/Skills
