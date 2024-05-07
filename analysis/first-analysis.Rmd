@@ -49,6 +49,7 @@ chord<-chorddiag(data = matrixgtm,
 
 chord
 ```
+The left side of the circle represents land types from the year 2018, the right side of the circle represents land types from the year 2024.
 
 ## Big takeaways from these findings are
 
@@ -123,5 +124,5 @@ chord<-chorddiag(data = matrixevt,
 
 chord
 ```
-#### One of the more significant findings from this landfire analysis is that the riparian habitat has been heavily changed into differing habitats such as conifer and hardwood.
+#### One of the more significant findings from this landfire analysis is that the riparian habitat has been heavily changed into differing habitats such as conifer and hardwood.BPS refers to the biophysical setting that was predicted to exist before current times. EVT Represents existing vegetation types. This chord diagram shows the change between the previously predicted and existing habitat types.
 
